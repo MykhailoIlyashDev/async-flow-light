@@ -1,0 +1,42 @@
+{
+  "name": "async-flow-light",
+  "version": "1.0.0",
+  "description": "A lightweight library for elegant asynchronous code management",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "example": "ts-node src/example.ts"
+  },
+  "keywords": [
+    "async",
+    "promise",
+    "flow",
+    "parallel",
+    "retry",
+    "timeout",
+    "batch",
+    "rate-limit",
+    "cancellable",
+    "asynchronous"
+  ],
+  "author": "Michael Ilyash",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MykhailoIlyashDev/async-flow-light.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MykhailoIlyashDev/async-flow-light/issues"
+  },
+  "homepage": "https://github.com/MykhailoIlyashDev/async-flow-light#readme"
+}
